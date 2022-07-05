@@ -4,3 +4,8 @@ This plugin allows you to force players to transfer to your main lobby or hub se
 
 **NOTE: Not all server crashes can be detected by a plugin or even the server in some rare cases (like a process force kill). Therefore, this plugin cannot be 100% certain of a crash if the server is not shutdown properly, or if the server never disables the plugin.**
 
+TODO LIST:
+- add SimpleNPC And Slapper Support
+- add in game form ui for OP To set the ip and port to transfer to upon crash
+- Texter support. add a timer to texter.
+- bump to future releases.
