@@ -1,0 +1,27 @@
+
+VERSION: "1.0.0" # Internal use only
+
+# Supported Languages
+# en (English)
+
+language: en
+
+# The target server is where the players will be sent when the server stops
+Server:
+  # This is the IP address of the target server
+  Address: yourserveraddress
+  # This is the port of the target server
+  Port: yourport
+
+# The warning message is what is sent right before players are transferred
+Warning:
+  # Choose whether to enable the warning message
+  Enabled: true
+
+  # Delay is the amount of time to pause before transferring players
+  # This value is in seconds (default is 10 seconds)
+  Delay: 10
+
+  # This is the message that should be sent to players
+  # You can use {seconds-left} to show how many seconds are left before transferring
+  Message: "§cThe server has been stopped, you will be transferred to hub in {seconds-left} seconds!"
