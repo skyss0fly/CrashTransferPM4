@@ -52,7 +52,7 @@ class CrashTransferPM4 extends PluginBase implements Listener {
             }
             foreach($players as $player){
                 if(!$player instanceof Player) continue;
-                $player->sendMessage(str_replace("{seconds-left}", $i, CrashTransfer::$settings["Warning"]["Message"]));
+                $player->sendMessage(str_replace("{seconds-left}", $i, CrashTransferPM4::$settings["Warning"]["Message"]));
             }
             sleep(1);
         }
