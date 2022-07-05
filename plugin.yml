@@ -2,5 +2,5 @@ name: CrashTransferPM4
 author: skyss0fly
 version: 1.0.0
 description: Transfers players when the server stops
-main: skyss0fly/CrashTransferPM4
+main: skyss0fly\CrashTransferPM4\CrashTransferPM4.php
 api: 4.0.0
