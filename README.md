@@ -1,3 +1,4 @@
+![crashtranfericon](https://user-images.githubusercontent.com/100278495/178100617-76dc72ad-3d21-4b90-a1bd-aa80e20b90f8.png)
 
 ## Information
 This plugin allows you to force players to transfer to your main lobby or hub server if the server they were playing on has been stopped or has crashed unexpectedly. You can set up your main lobby server in the config.yml file where players will be transferred to. You can also enable and configure a warning message to be sent to players right before the server stops and transfers them.
