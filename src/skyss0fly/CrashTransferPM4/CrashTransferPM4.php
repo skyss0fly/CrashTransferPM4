@@ -1,7 +1,7 @@
 <?php
 
 
-namespace skyss0fly\CrashTransferPM5;
+namespace skyss0fly\CrashTransferPM4;
 
 use pocketmine\event\Listener;
 use pocketmine\player\Player;
@@ -10,7 +10,7 @@ use pocketmine\utils\Config;
 
 /**
  * Class CrashTransfer
- * @package skyss0fly\CrashTransferPM5
+ * @package skyss0fly\CrashTransferPM4
  */
 class CrashTransferPM4 extends PluginBase implements Listener {
     
@@ -52,7 +52,7 @@ class CrashTransferPM4 extends PluginBase implements Listener {
             }
             foreach($players as $player){
                 if(!$player instanceof Player) continue;
-                $player->sendMessage(str_replace("{seconds-left}", $i, CrashTransferPM5::$settings["Warning"]["Message"]));
+                $player->sendMessage(str_replace("{seconds-left}", $i, CrashTransferPM4::$settings["Warning"]["Message"]));
             }
             sleep(1);
         }
