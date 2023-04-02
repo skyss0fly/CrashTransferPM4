@@ -18,7 +18,7 @@ class CrashTransferPM4 extends PluginBase implements Listener {
 
     public function onLoad(): void
     {
-        $this-> echo = new Config(
+        $this-> config = new Config(
             $this->getFile() . "resources/languages/" . $this->getConfig()->get("en") . ".yml"
         );
     }
